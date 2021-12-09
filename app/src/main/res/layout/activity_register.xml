@@ -1,0 +1,84 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/mybackground"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/name"
+        android:hint="Enter your name"
+        android:drawableLeft="@drawable/name"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/address"
+        android:drawableLeft="@drawable/address"
+        android:layout_margin="5dp"
+        android:hint="Enter your address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/phone_no"
+        android:drawableLeft="@drawable/phonenumber"
+        android:layout_margin="5dp"
+        android:hint="Enter your phone number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:drawableLeft="@drawable/email"
+        android:layout_margin="5dp"
+        android:hint="Enter your email id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/u_name"
+        android:drawableLeft="@drawable/u_name"
+        android:layout_margin="5dp"
+        android:hint="Enter your user name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/pass"
+        android:drawableLeft="@drawable/pass"
+        android:layout_margin="5dp"
+        android:hint="Enter your password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/cpass"
+        android:drawableLeft="@drawable/c_pass"
+        android:layout_margin="5dp"
+        android:hint="confirm your password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/register"
+        android:background="@drawable/buttonstyle"
+        android:textColor="#FFFAFA"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to login"
+        android:textColor="#FBFBFB"
+        android:background="@drawable/buttonstyle"
+        android:layout_margin="5dp"
+        android:id="@+id/backtologin">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+</LinearLayout>
